@@ -1,10 +1,11 @@
-
 $(function(){
+  
+    $("#slide").slick({dots:true});
 
-    $("#slide").slick({dots:ture});
+    $(".btn").on("click",()=>{
+    $("#slide").slideToggle();
+    })
+    
+    
 
-    // $(".btn").on("click",()=>{
-    //   $(".slide").slidetoggle()+
-    // })
-
-})
+  });
